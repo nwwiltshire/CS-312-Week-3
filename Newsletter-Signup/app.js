@@ -41,7 +41,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "nickw:349c0f95a1e7511606cd28d78069358c-us14"
+        auth: "nickw:b97e60c70094070f1e68293d82e8ba8b-us14"
     }
 
     const request = https.request(url, options, function(response) {
@@ -67,6 +67,6 @@ app.post("/failure", function(req, res) {
 });
 
 // API Key
-// 349c0f95a1e7511606cd28d78069358c-us14
+// b97e60c70094070f1e68293d82e8ba8b-us14
 // List ID
 // b65a21d421
